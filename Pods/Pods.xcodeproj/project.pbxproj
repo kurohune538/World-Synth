@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077663924DB7BD884EE0BDCFDB547068 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91003902CF4312B0297F45EA1AEAF855 /* Blob.swift */; };
+		10422E78EE4B264F5061D1FBC0B98E1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		125CDB7819F7BAEF8BB153B89727D548 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7F2DA11B71E9C5BC6721F3331D11D /* Float.swift */; };
+		264B1DC5DA8C09FA0563B350AB963E8D /* OSCAddressPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF950DCCD767BDCFFADF6B9E03377A37 /* OSCAddressPattern.swift */; };
+		2AD2D13DABC7D5ED56BA0FED85FA5418 /* Pods-LiDAR synthTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CF4C1C8271EDAC8C9ED54FFDB80227 /* Pods-LiDAR synthTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		345B3E162EDF083F1A2C6072EF528688 /* Timetag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98D7AD0447351A5776E7CE6D56F8B3E /* Timetag.swift */; };
+		397E74EB0DB8A2A1F49195FD5532101A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3DBA67D35EA81A8806A0ACBA5919820B /* Pods-LiDAR synth-LiDAR synthUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ADBC376B71CEB8FB0F0865674CB613 /* Pods-LiDAR synth-LiDAR synthUITests-dummy.m */; };
+		411501123F560400494A461166278CAE /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9E114D9F04EC2AE4EFBF35D4C0587D /* yudpsocket.swift */; };
+		43C6260D1C8E8EF9A5444F56FB78D214 /* OSCAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2055205C8C6C6C6CE01DCE0CB1ED2E96 /* OSCAddress.swift */; };
+		50C5EF3E7F6A1646AA7282D636400FB0 /* OSCMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E0D4A428F2862B0988E7441958FA65 /* OSCMessage.swift */; };
+		642F24BEC2B63EE7B519AAFE83ACB963 /* SwiftOSC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF560344BEC5BE1407361474A891665 /* SwiftOSC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6621AFA48560178A3E2D0CFAF048670C /* Pods-LiDAR synth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5C036F2693FA1C265D38DF40318435 /* Pods-LiDAR synth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6884FC037937DA530A063AED76100C93 /* OSCBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4629D49A39B7E5AA5815F334E5B145 /* OSCBundle.swift */; };
+		88335B08F3E34853A434CF91C93CDC7F /* Pods-LiDAR synth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA41A3D7DE9D3FF45BE28714A5F9BD8D /* Pods-LiDAR synth-dummy.m */; };
+		8A6F74CFE4F8AA2292EBB525453A8DC3 /* Pods-LiDAR synthTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D0CB2C1DD8B153B564550AC78EC2A /* Pods-LiDAR synthTests-dummy.m */; };
+		92438277A0A1933D1194528D129E84A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB7EFE6CF38177406B612F3DDBA4D7C /* Extensions.swift */; };
+		94757D87520E3C35E27AF0BE5969BA93 /* SwiftOSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 386941349522659E86B8D51D5E3C0B52 /* SwiftOSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DAB709F9DDD7284B79F795B22362269 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E315E36A7D20DA7502A80366C98FFF /* String.swift */; };
+		A829C7D47BBF8A7BBA4F80C6B7BFA603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AD38F2172D459DE6EAB2C0D1B4C75AC9 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21744662841279BFB1D91F55DE613DB5 /* Int.swift */; };
+		AE2066FDEFFB7FB56B13AEBE2ED4C2E6 /* OSCElementProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0675A99C074F96A5C1422E2E3419D9 /* OSCElementProtocol.swift */; };
+		BFE5AF1184C2C7AB3E24EBEEE99F65B5 /* SwiftOSC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F28ED7364C5B9929E2FD556A03BE704 /* SwiftOSC-dummy.m */; };
+		C4C3CE2518D451878503FDBC4903B0DB /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676737DD5EFF1235601CE28F6BF3BB3 /* Timer.swift */; };
+		D28DD6AEC070DA7715AEADEBE99FC495 /* OSCServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADE6193413163572001AC7CF90EE81F /* OSCServer.swift */; };
+		D2ABBE14A46C19D3670EAA6835D8F4FB /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19968548C205D7F9A1E6D01DA168F085 /* ysocket.swift */; };
+		D3643A7CE87610A91A75188B2F50D62C /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 4151C192EBAF815848BC3965478BBBEC /* yudpsocket.c */; };
+		D4C6436B8A957B7CFE8C520489AA33EC /* Pods-LiDAR synth-LiDAR synthUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E106644D968D607FF4D0878A0FC85151 /* Pods-LiDAR synth-LiDAR synthUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D84172003FBE7927546BF56B029F4E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DA4CEBBE55AA7B43C9ACB62ABAF73A06 /* Impulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B8AC9A6C22D35ED8423C7407B54EBE /* Impulse.swift */; };
+		DF51F06B09827FFDEC27DEA11F34506A /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B1BE47F3E9A3B0346FE64F4D0170DE /* Bool.swift */; };
+		F8F435B3E3010844B0F11E6E94489BD4 /* OSCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22018E49400A11038E628CF8CC15DE08 /* OSCClient.swift */; };
+		FBA2D35BE24158E456C37195A5A888ED /* OSCTypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80916BF7BE96A475E5442087ED75330 /* OSCTypeProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25C68E18A629886D657494E6A875A146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26CB97873432770CDACDDB2A7608A55B;
+			remoteInfo = SwiftOSC;
+		};
+		3A3D1CAD04F9206FD7359A20D87119CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26CB97873432770CDACDDB2A7608A55B;
+			remoteInfo = SwiftOSC;
+		};
+		B35084DC0261259A23A2CE86E617FCE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8FDCDB75F3481167553627B1171B488;
+			remoteInfo = "Pods-LiDAR synth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00039FC043D17FAFE5CBF48C9E3C7A8F /* Pods-LiDAR synthTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiDAR synthTests.modulemap"; sourceTree = "<group>"; };
+		00ADBC376B71CEB8FB0F0865674CB613 /* Pods-LiDAR synth-LiDAR synthUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiDAR synth-LiDAR synthUITests-dummy.m"; sourceTree = "<group>"; };
+		04470799B7AF7B75F85947F29A350D1F /* Pods-LiDAR synth-LiDAR synthUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiDAR synth-LiDAR synthUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AB7EFE6CF38177406B612F3DDBA4D7C /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Framework/SwiftOSC/Helpers/Extensions.swift; sourceTree = "<group>"; };
+		17DCC39C79E72701F8B7356C5842D66B /* Pods-LiDAR synth-LiDAR synthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiDAR synth-LiDAR synthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19968548C205D7F9A1E6D01DA168F085 /* ysocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ysocket.swift; path = Framework/SwiftOSC/Communication/ysocket/ysocket.swift; sourceTree = "<group>"; };
+		1FF560344BEC5BE1407361474A891665 /* SwiftOSC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOSC-umbrella.h"; sourceTree = "<group>"; };
+		2055205C8C6C6C6CE01DCE0CB1ED2E96 /* OSCAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCAddress.swift; path = Framework/SwiftOSC/Addresses/OSCAddress.swift; sourceTree = "<group>"; };
+		21744662841279BFB1D91F55DE613DB5 /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = Framework/SwiftOSC/Types/Int.swift; sourceTree = "<group>"; };
+		22018E49400A11038E628CF8CC15DE08 /* OSCClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCClient.swift; path = Framework/SwiftOSC/Communication/OSCClient.swift; sourceTree = "<group>"; };
+		2363084B2C8007525C0C22FF17DBA2CC /* Pods-LiDAR synthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiDAR synthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35B8AC9A6C22D35ED8423C7407B54EBE /* Impulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Impulse.swift; path = Framework/SwiftOSC/Types/Impulse.swift; sourceTree = "<group>"; };
+		363251272DAE4ADAB03599B742126844 /* SwiftOSC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftOSC; path = SwiftOSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		386941349522659E86B8D51D5E3C0B52 /* SwiftOSC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftOSC.h; path = Framework/iOS/SwiftOSC.h; sourceTree = "<group>"; };
+		3C56ED92B9A67AEF70951B218901FE3D /* Pods-LiDAR synth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiDAR synth-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DA72BBA0C89D9CF7590A9E8ED7047D8 /* Pods-LiDAR synthTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiDAR synthTests-Info.plist"; sourceTree = "<group>"; };
+		3F28ED7364C5B9929E2FD556A03BE704 /* SwiftOSC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftOSC-dummy.m"; sourceTree = "<group>"; };
+		4151C192EBAF815848BC3965478BBBEC /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Framework/SwiftOSC/Communication/ysocket/yudpsocket.c; sourceTree = "<group>"; };
+		437A12089C72FF394BD0D33FEA94F6D4 /* Pods-LiDAR synthTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiDAR synthTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5064EA877D9B2C4EF7D398EE527342E3 /* Pods-LiDAR synth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LiDAR synth"; path = Pods_LiDAR_synth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECF519C9DAC245E9203A3B7C5221916 /* SwiftOSC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftOSC.modulemap; sourceTree = "<group>"; };
+		629508BA846B4E066DDBC3E976B22822 /* Pods-LiDAR synthTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LiDAR synthTests"; path = Pods_LiDAR_synthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		631D0CB2C1DD8B153B564550AC78EC2A /* Pods-LiDAR synthTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiDAR synthTests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74CF4C1C8271EDAC8C9ED54FFDB80227 /* Pods-LiDAR synthTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiDAR synthTests-umbrella.h"; sourceTree = "<group>"; };
+		85B1BE47F3E9A3B0346FE64F4D0170DE /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bool.swift; path = Framework/SwiftOSC/Types/Bool.swift; sourceTree = "<group>"; };
+		865502DD26FD07F41123F42DA1E70BDC /* Pods-LiDAR synth-LiDAR synthUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LiDAR synth-LiDAR synthUITests"; path = Pods_LiDAR_synth_LiDAR_synthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8676737DD5EFF1235601CE28F6BF3BB3 /* Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = Framework/SwiftOSC/Helpers/Timer.swift; sourceTree = "<group>"; };
+		88ED3CEC74B38E119681047C02259A07 /* Pods-LiDAR synth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiDAR synth.release.xcconfig"; sourceTree = "<group>"; };
+		8AA162F20C8AD7FA096B71DFB8CBDB25 /* SwiftOSC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftOSC-Info.plist"; sourceTree = "<group>"; };
+		8C76020F4EA50D50908944317A609C42 /* Pods-LiDAR synth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiDAR synth.debug.xcconfig"; sourceTree = "<group>"; };
+		91003902CF4312B0297F45EA1AEAF855 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Framework/SwiftOSC/Types/Blob.swift; sourceTree = "<group>"; };
+		9AFCDEEE806DE1A8DC8CD830FFDE1948 /* Pods-LiDAR synth-LiDAR synthUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiDAR synth-LiDAR synthUITests-Info.plist"; sourceTree = "<group>"; };
+		9BC7F2DA11B71E9C5BC6721F3331D11D /* Float.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Float.swift; path = Framework/SwiftOSC/Types/Float.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5C036F2693FA1C265D38DF40318435 /* Pods-LiDAR synth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiDAR synth-umbrella.h"; sourceTree = "<group>"; };
+		9F4629D49A39B7E5AA5815F334E5B145 /* OSCBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCBundle.swift; path = Framework/SwiftOSC/Elements/OSCBundle.swift; sourceTree = "<group>"; };
+		AB7160EDDA8BB4835EA4BE857A461D76 /* Pods-LiDAR synth-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiDAR synth-frameworks.sh"; sourceTree = "<group>"; };
+		B28D429F1A0C69DFC066866B67FDF1B9 /* Pods-LiDAR synthTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiDAR synthTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA41A3D7DE9D3FF45BE28714A5F9BD8D /* Pods-LiDAR synth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiDAR synth-dummy.m"; sourceTree = "<group>"; };
+		BB11B7EB3DC1E5C1F42B5F05C4E4649E /* SwiftOSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftOSC.release.xcconfig; sourceTree = "<group>"; };
+		C4D2B7AC827057DA4D311158F98485E9 /* Pods-LiDAR synth-LiDAR synthUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiDAR synth-LiDAR synthUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CADE6193413163572001AC7CF90EE81F /* OSCServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCServer.swift; path = Framework/SwiftOSC/Communication/OSCServer.swift; sourceTree = "<group>"; };
+		CC0675A99C074F96A5C1422E2E3419D9 /* OSCElementProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCElementProtocol.swift; path = Framework/SwiftOSC/Elements/OSCElementProtocol.swift; sourceTree = "<group>"; };
+		CCA6BEB13C707EFB881FD12906983B41 /* Pods-LiDAR synth-LiDAR synthUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiDAR synth-LiDAR synthUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D4A2641EE512B899609703E67EC785EF /* Pods-LiDAR synth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiDAR synth-Info.plist"; sourceTree = "<group>"; };
+		D98D7AD0447351A5776E7CE6D56F8B3E /* Timetag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timetag.swift; path = Framework/SwiftOSC/Types/Timetag.swift; sourceTree = "<group>"; };
+		DEE7DA15D22FF5BD680EE91302984D38 /* Pods-LiDAR synth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiDAR synth-acknowledgements.plist"; sourceTree = "<group>"; };
+		E106644D968D607FF4D0878A0FC85151 /* Pods-LiDAR synth-LiDAR synthUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LiDAR synth-LiDAR synthUITests-umbrella.h"; sourceTree = "<group>"; };
+		E142323D2584542BEE0CB8FDD39272AB /* Pods-LiDAR synth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiDAR synth.modulemap"; sourceTree = "<group>"; };
+		E2C25BDDEEDB29C4E00517A0C578655D /* SwiftOSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftOSC.debug.xcconfig; sourceTree = "<group>"; };
+		E2E7F80FBB6A691C5F724AA6D9C81417 /* SwiftOSC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOSC-prefix.pch"; sourceTree = "<group>"; };
+		E80916BF7BE96A475E5442087ED75330 /* OSCTypeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCTypeProtocol.swift; path = Framework/SwiftOSC/Types/OSCTypeProtocol.swift; sourceTree = "<group>"; };
+		EF9E114D9F04EC2AE4EFBF35D4C0587D /* yudpsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = yudpsocket.swift; path = Framework/SwiftOSC/Communication/ysocket/yudpsocket.swift; sourceTree = "<group>"; };
+		F0C98BD26A4FCDD9E2B9E903476FFE67 /* Pods-LiDAR synthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiDAR synthTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6E315E36A7D20DA7502A80366C98FFF /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Framework/SwiftOSC/Types/String.swift; sourceTree = "<group>"; };
+		F7E0D4A428F2862B0988E7441958FA65 /* OSCMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCMessage.swift; path = Framework/SwiftOSC/Elements/OSCMessage.swift; sourceTree = "<group>"; };
+		FBDF0673FECE5D2C79FC1EE1130DD491 /* Pods-LiDAR synth-LiDAR synthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LiDAR synth-LiDAR synthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF950DCCD767BDCFFADF6B9E03377A37 /* OSCAddressPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCAddressPattern.swift; path = Framework/SwiftOSC/Addresses/OSCAddressPattern.swift; sourceTree = "<group>"; };
+		FFE7E7C6CFC0EE9BC24B1BCB30110944 /* Pods-LiDAR synth-LiDAR synthUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LiDAR synth-LiDAR synthUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7013AD1A743D396DD7728EE11F8D8D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A829C7D47BBF8A7BBA4F80C6B7BFA603 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A0766C8BC9161F741B56BA98442F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84172003FBE7927546BF56B029F4E13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6F7B6219F7A341359F1BF864A64116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10422E78EE4B264F5061D1FBC0B98E1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E5643CD54C8489BA637A49924C0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397E74EB0DB8A2A1F49195FD5532101A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D423B24B0934AB6299B96EFD80605D /* Pods-LiDAR synth */ = {
+			isa = PBXGroup;
+			children = (
+				E142323D2584542BEE0CB8FDD39272AB /* Pods-LiDAR synth.modulemap */,
+				3C56ED92B9A67AEF70951B218901FE3D /* Pods-LiDAR synth-acknowledgements.markdown */,
+				DEE7DA15D22FF5BD680EE91302984D38 /* Pods-LiDAR synth-acknowledgements.plist */,
+				BA41A3D7DE9D3FF45BE28714A5F9BD8D /* Pods-LiDAR synth-dummy.m */,
+				AB7160EDDA8BB4835EA4BE857A461D76 /* Pods-LiDAR synth-frameworks.sh */,
+				D4A2641EE512B899609703E67EC785EF /* Pods-LiDAR synth-Info.plist */,
+				9E5C036F2693FA1C265D38DF40318435 /* Pods-LiDAR synth-umbrella.h */,
+				8C76020F4EA50D50908944317A609C42 /* Pods-LiDAR synth.debug.xcconfig */,
+				88ED3CEC74B38E119681047C02259A07 /* Pods-LiDAR synth.release.xcconfig */,
+			);
+			name = "Pods-LiDAR synth";
+			path = "Target Support Files/Pods-LiDAR synth";
+			sourceTree = "<group>";
+		};
+		0F5C836B84C005F50008C3E749380EA6 /* SwiftOSC */ = {
+			isa = PBXGroup;
+			children = (
+				91003902CF4312B0297F45EA1AEAF855 /* Blob.swift */,
+				85B1BE47F3E9A3B0346FE64F4D0170DE /* Bool.swift */,
+				0AB7EFE6CF38177406B612F3DDBA4D7C /* Extensions.swift */,
+				9BC7F2DA11B71E9C5BC6721F3331D11D /* Float.swift */,
+				35B8AC9A6C22D35ED8423C7407B54EBE /* Impulse.swift */,
+				21744662841279BFB1D91F55DE613DB5 /* Int.swift */,
+				2055205C8C6C6C6CE01DCE0CB1ED2E96 /* OSCAddress.swift */,
+				FF950DCCD767BDCFFADF6B9E03377A37 /* OSCAddressPattern.swift */,
+				9F4629D49A39B7E5AA5815F334E5B145 /* OSCBundle.swift */,
+				22018E49400A11038E628CF8CC15DE08 /* OSCClient.swift */,
+				CC0675A99C074F96A5C1422E2E3419D9 /* OSCElementProtocol.swift */,
+				F7E0D4A428F2862B0988E7441958FA65 /* OSCMessage.swift */,
+				CADE6193413163572001AC7CF90EE81F /* OSCServer.swift */,
+				E80916BF7BE96A475E5442087ED75330 /* OSCTypeProtocol.swift */,
+				F6E315E36A7D20DA7502A80366C98FFF /* String.swift */,
+				386941349522659E86B8D51D5E3C0B52 /* SwiftOSC.h */,
+				8676737DD5EFF1235601CE28F6BF3BB3 /* Timer.swift */,
+				D98D7AD0447351A5776E7CE6D56F8B3E /* Timetag.swift */,
+				19968548C205D7F9A1E6D01DA168F085 /* ysocket.swift */,
+				4151C192EBAF815848BC3965478BBBEC /* yudpsocket.c */,
+				EF9E114D9F04EC2AE4EFBF35D4C0587D /* yudpsocket.swift */,
+				95996E0CD7170960AD421221C006F1E5 /* Support Files */,
+			);
+			name = SwiftOSC;
+			path = SwiftOSC;
+			sourceTree = "<group>";
+		};
+		3142947D7D88CB28970A1062BE9AD50C /* Pods-LiDAR synth-LiDAR synthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE7E7C6CFC0EE9BC24B1BCB30110944 /* Pods-LiDAR synth-LiDAR synthUITests.modulemap */,
+				04470799B7AF7B75F85947F29A350D1F /* Pods-LiDAR synth-LiDAR synthUITests-acknowledgements.markdown */,
+				C4D2B7AC827057DA4D311158F98485E9 /* Pods-LiDAR synth-LiDAR synthUITests-acknowledgements.plist */,
+				00ADBC376B71CEB8FB0F0865674CB613 /* Pods-LiDAR synth-LiDAR synthUITests-dummy.m */,
+				CCA6BEB13C707EFB881FD12906983B41 /* Pods-LiDAR synth-LiDAR synthUITests-frameworks.sh */,
+				9AFCDEEE806DE1A8DC8CD830FFDE1948 /* Pods-LiDAR synth-LiDAR synthUITests-Info.plist */,
+				E106644D968D607FF4D0878A0FC85151 /* Pods-LiDAR synth-LiDAR synthUITests-umbrella.h */,
+				17DCC39C79E72701F8B7356C5842D66B /* Pods-LiDAR synth-LiDAR synthUITests.debug.xcconfig */,
+				FBDF0673FECE5D2C79FC1EE1130DD491 /* Pods-LiDAR synth-LiDAR synthUITests.release.xcconfig */,
+			);
+			name = "Pods-LiDAR synth-LiDAR synthUITests";
+			path = "Target Support Files/Pods-LiDAR synth-LiDAR synthUITests";
+			sourceTree = "<group>";
+		};
+		3DB8E873E899C7FB03856001F85BCBE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C836B84C005F50008C3E749380EA6 /* SwiftOSC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55E7920DACC7C31BF696EEC92AE19700 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09D423B24B0934AB6299B96EFD80605D /* Pods-LiDAR synth */,
+				3142947D7D88CB28970A1062BE9AD50C /* Pods-LiDAR synth-LiDAR synthUITests */,
+				EFAD9AC62EF56FBACB78D451FD67B12B /* Pods-LiDAR synthTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		95996E0CD7170960AD421221C006F1E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF519C9DAC245E9203A3B7C5221916 /* SwiftOSC.modulemap */,
+				3F28ED7364C5B9929E2FD556A03BE704 /* SwiftOSC-dummy.m */,
+				8AA162F20C8AD7FA096B71DFB8CBDB25 /* SwiftOSC-Info.plist */,
+				E2E7F80FBB6A691C5F724AA6D9C81417 /* SwiftOSC-prefix.pch */,
+				1FF560344BEC5BE1407361474A891665 /* SwiftOSC-umbrella.h */,
+				E2C25BDDEEDB29C4E00517A0C578655D /* SwiftOSC.debug.xcconfig */,
+				BB11B7EB3DC1E5C1F42B5F05C4E4649E /* SwiftOSC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftOSC";
+			sourceTree = "<group>";
+		};
+		C203FF5C9BF6DDCC8F06EC3A5DB98C3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5064EA877D9B2C4EF7D398EE527342E3 /* Pods-LiDAR synth */,
+				865502DD26FD07F41123F42DA1E70BDC /* Pods-LiDAR synth-LiDAR synthUITests */,
+				629508BA846B4E066DDBC3E976B22822 /* Pods-LiDAR synthTests */,
+				363251272DAE4ADAB03599B742126844 /* SwiftOSC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3DB8E873E899C7FB03856001F85BCBE4 /* Pods */,
+				C203FF5C9BF6DDCC8F06EC3A5DB98C3A /* Products */,
+				55E7920DACC7C31BF696EEC92AE19700 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFAD9AC62EF56FBACB78D451FD67B12B /* Pods-LiDAR synthTests */ = {
+			isa = PBXGroup;
+			children = (
+				00039FC043D17FAFE5CBF48C9E3C7A8F /* Pods-LiDAR synthTests.modulemap */,
+				B28D429F1A0C69DFC066866B67FDF1B9 /* Pods-LiDAR synthTests-acknowledgements.markdown */,
+				437A12089C72FF394BD0D33FEA94F6D4 /* Pods-LiDAR synthTests-acknowledgements.plist */,
+				631D0CB2C1DD8B153B564550AC78EC2A /* Pods-LiDAR synthTests-dummy.m */,
+				3DA72BBA0C89D9CF7590A9E8ED7047D8 /* Pods-LiDAR synthTests-Info.plist */,
+				74CF4C1C8271EDAC8C9ED54FFDB80227 /* Pods-LiDAR synthTests-umbrella.h */,
+				2363084B2C8007525C0C22FF17DBA2CC /* Pods-LiDAR synthTests.debug.xcconfig */,
+				F0C98BD26A4FCDD9E2B9E903476FFE67 /* Pods-LiDAR synthTests.release.xcconfig */,
+			);
+			name = "Pods-LiDAR synthTests";
+			path = "Target Support Files/Pods-LiDAR synthTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		98216EEACF2F6009DCED9695A156A61C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6621AFA48560178A3E2D0CFAF048670C /* Pods-LiDAR synth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4056206ADCCFC805EFB9E73997CE213 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD2D13DABC7D5ED56BA0FED85FA5418 /* Pods-LiDAR synthTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC496BEF4FF20E5A36CE87AB31219C9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C6436B8A957B7CFE8C520489AA33EC /* Pods-LiDAR synth-LiDAR synthUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AB8A2339B1531D8F5CAE80F31DE61C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94757D87520E3C35E27AF0BE5969BA93 /* SwiftOSC.h in Headers */,
+				642F24BEC2B63EE7B519AAFE83ACB963 /* SwiftOSC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26CB97873432770CDACDDB2A7608A55B /* SwiftOSC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34174DB4668DD2D199277F3725BF855D /* Build configuration list for PBXNativeTarget "SwiftOSC" */;
+			buildPhases = (
+				F9AB8A2339B1531D8F5CAE80F31DE61C /* Headers */,
+				9D29F9B4DDA28BAB8860E9631BFD512C /* Sources */,
+				91A0766C8BC9161F741B56BA98442F25 /* Frameworks */,
+				F8A2925F0198F3B343DA347434DC13D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftOSC;
+			productName = SwiftOSC;
+			productReference = 363251272DAE4ADAB03599B742126844 /* SwiftOSC */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEDE3AAD7E37AFBDE02E420BE43510B4 /* Pods-LiDAR synth-LiDAR synthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E136141BEB0E05C55E53E90B7BF5FC1 /* Build configuration list for PBXNativeTarget "Pods-LiDAR synth-LiDAR synthUITests" */;
+			buildPhases = (
+				CC496BEF4FF20E5A36CE87AB31219C9A /* Headers */,
+				6E04DA0C8021FAC433C15F91E571D23A /* Sources */,
+				C40E5643CD54C8489BA637A49924C0DF /* Frameworks */,
+				B3841C9A8EAA9E044831C124BD218F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9AEC22C2DF668FB42F82ECFBE5F9B9F /* PBXTargetDependency */,
+			);
+			name = "Pods-LiDAR synth-LiDAR synthUITests";
+			productName = Pods_LiDAR_synth_LiDAR_synthUITests;
+			productReference = 865502DD26FD07F41123F42DA1E70BDC /* Pods-LiDAR synth-LiDAR synthUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8FDCDB75F3481167553627B1171B488 /* Pods-LiDAR synth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC6B8FC0A7A9144D19362C544FE135C /* Build configuration list for PBXNativeTarget "Pods-LiDAR synth" */;
+			buildPhases = (
+				98216EEACF2F6009DCED9695A156A61C /* Headers */,
+				8AEFABA1E7E0425A73C1E2DF0DD7D8C8 /* Sources */,
+				7013AD1A743D396DD7728EE11F8D8D1B /* Frameworks */,
+				7F714D51C0939C7D560BB9874741ECD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9142529FF28085BD9496D779A69EAC7D /* PBXTargetDependency */,
+			);
+			name = "Pods-LiDAR synth";
+			productName = Pods_LiDAR_synth;
+			productReference = 5064EA877D9B2C4EF7D398EE527342E3 /* Pods-LiDAR synth */;
+			productType = "com.apple.product-type.framework";
+		};
+		D989EF14496954AE548FEE72AE9C002D /* Pods-LiDAR synthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C555381548F9A5144E0B7E63404D21CE /* Build configuration list for PBXNativeTarget "Pods-LiDAR synthTests" */;
+			buildPhases = (
+				B4056206ADCCFC805EFB9E73997CE213 /* Headers */,
+				71762EF4FF9C7EF7A7D6D043E2FD04DD /* Sources */,
+				9C6F7B6219F7A341359F1BF864A64116 /* Frameworks */,
+				81AD0C694A1ABE3C55A81BD0D843B527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F00060C26E9C327E4E27502BCED47223 /* PBXTargetDependency */,
+			);
+			name = "Pods-LiDAR synthTests";
+			productName = Pods_LiDAR_synthTests;
+			productReference = 629508BA846B4E066DDBC3E976B22822 /* Pods-LiDAR synthTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C203FF5C9BF6DDCC8F06EC3A5DB98C3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8FDCDB75F3481167553627B1171B488 /* Pods-LiDAR synth */,
+				AEDE3AAD7E37AFBDE02E420BE43510B4 /* Pods-LiDAR synth-LiDAR synthUITests */,
+				D989EF14496954AE548FEE72AE9C002D /* Pods-LiDAR synthTests */,
+				26CB97873432770CDACDDB2A7608A55B /* SwiftOSC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F714D51C0939C7D560BB9874741ECD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AD0C694A1ABE3C55A81BD0D843B527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3841C9A8EAA9E044831C124BD218F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A2925F0198F3B343DA347434DC13D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E04DA0C8021FAC433C15F91E571D23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBA67D35EA81A8806A0ACBA5919820B /* Pods-LiDAR synth-LiDAR synthUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71762EF4FF9C7EF7A7D6D043E2FD04DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6F74CFE4F8AA2292EBB525453A8DC3 /* Pods-LiDAR synthTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEFABA1E7E0425A73C1E2DF0DD7D8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88335B08F3E34853A434CF91C93CDC7F /* Pods-LiDAR synth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D29F9B4DDA28BAB8860E9631BFD512C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077663924DB7BD884EE0BDCFDB547068 /* Blob.swift in Sources */,
+				DF51F06B09827FFDEC27DEA11F34506A /* Bool.swift in Sources */,
+				92438277A0A1933D1194528D129E84A4 /* Extensions.swift in Sources */,
+				125CDB7819F7BAEF8BB153B89727D548 /* Float.swift in Sources */,
+				DA4CEBBE55AA7B43C9ACB62ABAF73A06 /* Impulse.swift in Sources */,
+				AD38F2172D459DE6EAB2C0D1B4C75AC9 /* Int.swift in Sources */,
+				43C6260D1C8E8EF9A5444F56FB78D214 /* OSCAddress.swift in Sources */,
+				264B1DC5DA8C09FA0563B350AB963E8D /* OSCAddressPattern.swift in Sources */,
+				6884FC037937DA530A063AED76100C93 /* OSCBundle.swift in Sources */,
+				F8F435B3E3010844B0F11E6E94489BD4 /* OSCClient.swift in Sources */,
+				AE2066FDEFFB7FB56B13AEBE2ED4C2E6 /* OSCElementProtocol.swift in Sources */,
+				50C5EF3E7F6A1646AA7282D636400FB0 /* OSCMessage.swift in Sources */,
+				D28DD6AEC070DA7715AEADEBE99FC495 /* OSCServer.swift in Sources */,
+				FBA2D35BE24158E456C37195A5A888ED /* OSCTypeProtocol.swift in Sources */,
+				9DAB709F9DDD7284B79F795B22362269 /* String.swift in Sources */,
+				BFE5AF1184C2C7AB3E24EBEEE99F65B5 /* SwiftOSC-dummy.m in Sources */,
+				C4C3CE2518D451878503FDBC4903B0DB /* Timer.swift in Sources */,
+				345B3E162EDF083F1A2C6072EF528688 /* Timetag.swift in Sources */,
+				D2ABBE14A46C19D3670EAA6835D8F4FB /* ysocket.swift in Sources */,
+				D3643A7CE87610A91A75188B2F50D62C /* yudpsocket.c in Sources */,
+				411501123F560400494A461166278CAE /* yudpsocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9142529FF28085BD9496D779A69EAC7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftOSC;
+			target = 26CB97873432770CDACDDB2A7608A55B /* SwiftOSC */;
+			targetProxy = 25C68E18A629886D657494E6A875A146 /* PBXContainerItemProxy */;
+		};
+		F00060C26E9C327E4E27502BCED47223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LiDAR synth";
+			target = D8FDCDB75F3481167553627B1171B488 /* Pods-LiDAR synth */;
+			targetProxy = B35084DC0261259A23A2CE86E617FCE1 /* PBXContainerItemProxy */;
+		};
+		F9AEC22C2DF668FB42F82ECFBE5F9B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftOSC;
+			target = 26CB97873432770CDACDDB2A7608A55B /* SwiftOSC */;
+			targetProxy = 3A3D1CAD04F9206FD7359A20D87119CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D90E441DD44ECD022F10CACCE2CA3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB11B7EB3DC1E5C1F42B5F05C4E4649E /* SwiftOSC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftOSC/SwiftOSC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftOSC/SwiftOSC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftOSC/SwiftOSC.modulemap";
+				PRODUCT_MODULE_NAME = SwiftOSC;
+				PRODUCT_NAME = SwiftOSC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1872663ABA7DBBADB9646720F29E4F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DCC39C79E72701F8B7356C5842D66B /* Pods-LiDAR synth-LiDAR synthUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiDAR synth-LiDAR synthUITests/Pods-LiDAR synth-LiDAR synthUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiDAR synth-LiDAR synthUITests/Pods-LiDAR synth-LiDAR synthUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		750856C052871132B89B65E3C9A9B6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDF0673FECE5D2C79FC1EE1130DD491 /* Pods-LiDAR synth-LiDAR synthUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiDAR synth-LiDAR synthUITests/Pods-LiDAR synth-LiDAR synthUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiDAR synth-LiDAR synthUITests/Pods-LiDAR synth-LiDAR synthUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CADDF5F28C1935F8AAF9D2E161B97EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C25BDDEEDB29C4E00517A0C578655D /* SwiftOSC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftOSC/SwiftOSC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftOSC/SwiftOSC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftOSC/SwiftOSC.modulemap";
+				PRODUCT_MODULE_NAME = SwiftOSC;
+				PRODUCT_NAME = SwiftOSC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		891CB7B25966D53D7BA30FC9DA8B08D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2363084B2C8007525C0C22FF17DBA2CC /* Pods-LiDAR synthTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiDAR synthTests/Pods-LiDAR synthTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiDAR synthTests/Pods-LiDAR synthTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1A839A690E2DEFD4DD6CD2C88C8EC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C98BD26A4FCDD9E2B9E903476FFE67 /* Pods-LiDAR synthTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiDAR synthTests/Pods-LiDAR synthTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiDAR synthTests/Pods-LiDAR synthTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D968421E61DFFC352C7E93171B307913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C76020F4EA50D50908944317A609C42 /* Pods-LiDAR synth.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiDAR synth/Pods-LiDAR synth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiDAR synth/Pods-LiDAR synth.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE5F4FBFD8D15AA091A79B8C5B77A4FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88ED3CEC74B38E119681047C02259A07 /* Pods-LiDAR synth.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LiDAR synth/Pods-LiDAR synth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LiDAR synth/Pods-LiDAR synth.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E136141BEB0E05C55E53E90B7BF5FC1 /* Build configuration list for PBXNativeTarget "Pods-LiDAR synth-LiDAR synthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1872663ABA7DBBADB9646720F29E4F48 /* Debug */,
+				750856C052871132B89B65E3C9A9B6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34174DB4668DD2D199277F3725BF855D /* Build configuration list for PBXNativeTarget "SwiftOSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CADDF5F28C1935F8AAF9D2E161B97EE /* Debug */,
+				0D90E441DD44ECD022F10CACCE2CA3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC6B8FC0A7A9144D19362C544FE135C /* Build configuration list for PBXNativeTarget "Pods-LiDAR synth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D968421E61DFFC352C7E93171B307913 /* Debug */,
+				DE5F4FBFD8D15AA091A79B8C5B77A4FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C555381548F9A5144E0B7E63404D21CE /* Build configuration list for PBXNativeTarget "Pods-LiDAR synthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891CB7B25966D53D7BA30FC9DA8B08D5 /* Debug */,
+				D1A839A690E2DEFD4DD6CD2C88C8EC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

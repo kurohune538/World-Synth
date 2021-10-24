@@ -1,0 +1,6 @@
+framework module Pods_LiDAR_synth {
+  umbrella header "Pods-LiDAR synth-umbrella.h"
+
+  export *
+  module * { export * }
+}
